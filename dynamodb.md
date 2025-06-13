@@ -16,18 +16,6 @@ We use DynamoDB as a **NoSQL database** to store form submissions, including:
 
 ---
 
-##Table Configuration
-
-- **Table Name:** `ContactUsSubmissions`
-- **Partition Key:** `email` (String)
-- **Attributes:** 
-  - `firstName` (String)
-  - `lastName` (String)
-  - `message` (String)
-  - `timestamp` (ISO 8601 String or Number)
-
----
-
 ##Steps to Create the Table (AWS Console)
 
 1. Go to **AWS Console > DynamoDB > Tables > Create table**
